@@ -1,0 +1,32 @@
+{
+  "name": "nwsc-backend",
+  "version": "1.0.0",
+  "description": "This is an API for NWSC meant to serve its applications.",
+  "main": "server.ts",
+  "scripts": {
+    "start-server": "tsc && node build/server.js",
+    "start": "nodemon -e ts -w ./ -x npm run start-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Airpot-Taxi/nwsc-backend.git"
+  },
+  "author": "Deogratius || Mike",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Airpot-Taxi/nwsc-backend/issues"
+  },
+  "homepage": "https://github.com/Airpot-Taxi/nwsc-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.3",
+    "@types/node": "^13.9.3",
+    "install": "^0.13.0"
+  }
+}
